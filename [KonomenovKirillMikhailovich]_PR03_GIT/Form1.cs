@@ -16,5 +16,11 @@ namespace _KonomenovKirillMikhailovich__PR03_GIT
         {
             InitializeComponent();
         }
+
+        private void btnShowDateTime_Click(object sender, EventArgs e)
+        {
+            MessageBox.Show(DateTime.Now.ToString("dd.MM.yyyy HH:mm:ss"),
+                   "Текущая дата и время");
+        }
     }
 }
